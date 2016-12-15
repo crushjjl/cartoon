@@ -1,0 +1,160 @@
+html{
+	font-size: 50px;
+}
+header{
+	position: relative;
+	height: .88rem;
+	background: url(../img/header_bg_repeat.jpg) repeat;
+	text-align: center;
+	line-height: .88px;	
+}
+header .header_back{
+	position: absolute;
+	width: .64rem;
+	height: .64rem;
+	left: .08rem;
+	top: .1rem;
+	background: url(../img/header_back.png) center center no-repeat;
+	background-size: 70% auto;
+}
+header .header_title{
+	position: relative;
+	display: inline-block;
+	font-size: .36rem;
+	text-align: center;
+	height: .88rem;
+	color: #999;
+	line-height: .88rem;
+	// margin-left: .4rem;
+}
+header .header_title:before{
+	content: "";
+	width: .64rem;
+	height: .64rem;
+	position: absolute;
+	left: -.6rem;
+	top: .1rem; 
+	background: url(../img/icon_title_caiman.png) center center no-repeat;
+	background-size: 70% auto;
+}
+header .header_right_img{
+	position: absolute;
+	height: .88rem;
+	width: 2rem;
+	top: 0;
+	right: .16rem;
+	background-size: 1.9rem 100%;
+	text-align: right;
+	overflow: hidden;
+}
+header .header_right_img img{
+	width: 100%;
+	height: 100%;
+}
+.body{
+	position: relative;
+	padding: 0.2rem 0.2rem 0;
+	overflow: hidden;
+	background: #f0ebf1;
+}
+.body .slide{
+	position: relative;
+	border: 0.1rem solid #fff;
+	border-radius: 0.1rem;
+	height: 3.5rem;
+}
+.body .slide a{                      
+	display: block;
+}
+.body .slide a img{
+	width: 100%;
+	height: 3.5rem;
+}
+.ajax-warp{
+	width: 100%;
+	height: 100%;
+	margin-top: 0.16rem;
+}
+.ajax-warp ul{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+	overflow: hidden;
+}
+.ajax-warp ul li{
+	list-style: none;
+	width: 100%;
+	border-radius: 5px;
+	background: #fff;
+	display: flex;
+	margin-bottom: 0.1rem;
+}
+.ajax-warp ul li .li_img{
+	width: 100%;
+	height: 100%;
+	background: url('../img/status_serialize.png') no-repeat;
+	background-position: top right;
+	padding: 0.1rem;
+	position: relative;
+}
+.ajax-warp ul li .ajax-img{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	margin-right: 0.2rem;
+}
+.ajax-warp ul li a img{
+	width: 100%;
+	height: 2.26rem;
+	margin-top: 0.2rem;
+}
+.ajax-warp ul li .ajax-name{
+	width: 2.6rem;
+	height: 100%;
+	font-size: .24rem;
+	position: absolute;
+	top: 0.3rem;
+	left: calc(30% + 0.2rem);
+}
+.ajax-warp ul li .ajax-name span{
+	display: block;
+	width: 100%;
+	height: .5rem;
+	line-height: .5rem;
+	color: #999;
+	margin-bottom: .1rem;
+}
+.ajax-warp ul li .ajax-name .book-name{
+	font-size: .32rem;
+	color: #000;
+}
+.book-area{
+	background: url('../img/icon_read_author.png') no-repeat;
+	text-indent: 0.55rem;
+}
+.book-praise{
+	background: url('../img/icon_read_praise.png') no-repeat;
+	text-indent: 0.55rem;
+}
+.book-type{
+	background: url('../img/icon_read_tag.png') no-repeat;
+	text-indent: 0.55rem;
+}
+
+.menu{ position: fixed;z-index: 100; top: 60%; right: 0; width: 40px; height: 40px; background: url("../img/pop_tools.png") no-repeat; background-size: 40px 40px;}
+.wrap{ display: none; }
+.menubox{ position: fixed;z-index: 100;  display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; background: rgba(0,0,0,0.4); }
+.wrapbox{ position: absolute;z-index: 100;  height: 280px; width: 280px; border-radius: 50%; background: url("../img/pop_tools_bg.png") center center no-repeat; }
+.wrapbox div{ transition: all 0.2s; }
+.btncenter{ position: absolute;  width: 40px; height: 40px; border-radius: 50%; background: url("../img/icon_tools_unlogin.png"); background-size: 40px 40px; left: 120px; top: 120px; transform: scale(0); }
+.btn1{ position: absolute; left: 126px; top: 37px; width: 35px; height: 35px; background: url("../img/icon_tools.png"); background-size: 35px 260px; transform: scale(0); }
+.btn1:hover{ transform: scale(2); }
+.btn2{ position: absolute; left: 192px; top: 72px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -75px; background-size: 35px 260px; transform: scale(0); }
+.btn3{ position: absolute; left: 204px; top: 144px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -150px; background-size: 35px 260px; transform: scale(0); }
+.btn4{ position: absolute; left: 157px; top: 202px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -225px; background-size: 35px 260px; transform: scale(0); }
+.btn5{ position: absolute; left: 81px; top: 197px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -297px; background-size: 35px 260px; transform: scale(0); }
+.btn6{ position: absolute; left: 37px; top: 137px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -373px; background-size: 35px 260px; transform: scale(0);}
+.btn7{ position: absolute; left: 57px; top: 67px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -448px; background-size: 35px 260px; transform: scale(0); }

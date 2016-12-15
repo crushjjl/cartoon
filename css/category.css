@@ -1,0 +1,108 @@
+/* header */
+header .header_title_else{
+	position: relative;
+	display: inline-block;
+	font-size: .36rem;
+	text-align: center;
+	height: .88rem;
+	color: #999;
+	line-height: .88rem;
+}
+/* category_content */
+#category_content{
+	width: 100%;
+	height: 100%;
+	background-color: #F0EBF1;
+}
+section .category_list{
+	width: 100%;
+	padding-top: 20px;
+}
+section .category_list li{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 5px;
+	background: url(../img/status_serialize.png) right top no-repeat;
+	background-size: 1.96rem 1.4rem;
+	width: 100%;
+	padding: 5px 7px;
+	height: 2.46rem;
+	background-color: #fff;
+	border: 1px solid #bdbdbd;
+	box-sizing: border-box;
+}
+ section .category_list dl{
+	overflow: hidden;
+} 
+section .category_list dl dt{
+	float: left;
+	width: 1.8rem;
+	height: 2.26rem;
+	margin:5px 5px 5px 5px;
+}
+section .category_list dl dd{
+	float: left;
+	width: 2.6rem;
+	height: 2.34rem;
+	padding-left: .2rem;
+	display: block;
+}
+section .category_list dl dt img{
+	width: 1.8rem;
+	height: 2.26rem;
+}
+section .category_list dl dd span{
+	font-size: .26rem;
+	color: #999;
+	display: block;
+	margin: 6px 0  10px 0;
+	 width: 2.6rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis; 
+}
+section .category_list .book_name{
+	font-size: .32rem;
+	color: #333;
+	margin: 4px 0;
+}
+section .category_list .book_author{
+	background:url(../img/icon_read_author.png) left center no-repeat;
+	background-size: .36rem auto;
+	padding-left: .5rem;
+}
+section .category_list .book_praise{
+	background:url(../img/icon_read_praise.png) left center no-repeat;
+	background-size: .36rem auto;
+	padding-left: .5rem;
+	margin-bottom: 4px;
+}
+section .category_list .book_tag{
+	background:url(../img/icon_read_tag.png) left center no-repeat;
+	background-size: .36rem auto;
+	padding-left: .5rem;
+	margin-bottom: 4px;
+}
+section .category_list .book_updateTime{
+	background:url(../img/icon_update_time.jpg) left center no-repeat;
+	background-size: .4rem .4rem;
+	font-size: .28rem;
+	margin-bottom: 7px;
+	padding-left: .5rem;
+	color: #e13511;
+}
+
+.menu{ position: fixed; top: 60%; right: 0; width: 40px; height: 40px; background: url("../img/pop_tools.png") no-repeat; background-size: 40px 40px;}
+.wrap{ display: none; }
+.menubox{ position: fixed;  display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; background: rgba(0,0,0,0.4); }
+.wrapbox{ position: absolute;  height: 280px; width: 280px; border-radius: 50%; background: url("../img/pop_tools_bg.png") center center no-repeat; }
+.wrapbox div{ transition: all 0.2s; }
+.btncenter{ position: absolute;  width: 40px; height: 40px; border-radius: 50%; background: url("../img/icon_tools_unlogin.png"); background-size: 40px 40px; left: 120px; top: 120px; transform: scale(0); }
+.btn1{ position: absolute; left: 126px; top: 37px; width: 35px; height: 35px; background: url("../img/icon_tools.png"); background-size: 35px 260px; transform: scale(0); }
+.btn1:hover{ transform: scale(2); }
+.btn2{ position: absolute; left: 192px; top: 72px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -75px; background-size: 35px 260px; transform: scale(0); }
+.btn3{ position: absolute; left: 204px; top: 144px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -150px; background-size: 35px 260px; transform: scale(0); }
+.btn4{ position: absolute; left: 157px; top: 202px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -225px; background-size: 35px 260px; transform: scale(0); }
+.btn5{ position: absolute; left: 81px; top: 197px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -297px; background-size: 35px 260px; transform: scale(0); }
+.btn6{ position: absolute; left: 37px; top: 137px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -373px; background-size: 35px 260px; transform: scale(0);}
+.btn7{ position: absolute; left: 57px; top: 67px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -448px; background-size: 35px 260px; transform: scale(0); }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>搜索</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/search.css">
+	<script type="text/javascript" src="lib/jquery/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+</head>
+<body>
+	<div class="menu"></div>
+	<div class="wrap">
+		<div class="menubox">	
+			<div class="wrapbox">		
+				<div class="btncenter"></div>
+				<div class="btn1"></div>
+				<div class="btn2"></div>
+				<div class="btn3"></div>
+				<div class="btn4"></div>
+				<div class="btn5"></div>
+				<div class="btn6"></div>
+				<div class="btn7"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- header -->
+	<div id="headerwrapper">
+		<header>
+			<a href="javascript:void(0)" title="" class="header_back"></a>
+			<div class="header_title">
+				搜索
+			</div>
+			<div class="header_right_img">
+				<img src="img/header_right_search.png" alt="bg">
+			</div>
+		</header>
+	</div>
+	<!-- content -->
+	<div id="content">
+		<section class="search">
+			<div class="content_search">
+				<input type="text" name="" placeholder="请输入你要查找的漫画">
+				<div class="search_btn">搜索</div>
+			</div>
+		</section>
+		<section class="sort">
+			<div class="content_sort">
+				<div class="hot_sort">全部分类</div>
+				<div class="tag_sort">
+					<ul>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="recommend">
+			<div class="content_recommend">
+				<div class="recommend_title">猜你喜欢</div>
+				<ul class="recommend_list">
+				</ul>
+			</div>
+		</section>
+	</div>
+
+	<!-- js -->
+	<script type="text/javascript" src="lib/jquery/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/search.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".header_back").on("touchend",function(){
+				window.history.back(-1);
+			});
+		});
+	</script>
+</body>
+</html>

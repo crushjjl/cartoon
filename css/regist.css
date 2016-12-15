@@ -1,0 +1,36 @@
+html,body{ font-size: 50px; margin: 0; padding: 0; }
+
+header h2{ margin: 0; font-weight: normal; text-align: center; }
+header{ height: 0.88rem; width: 100%; background: url("../img/header_bg_repeat.jpg"); overflow: hidden; line-height: 44px; font-size: 0.26rem; color:#999; }
+.cancle{ display: block; width: 0.88rem; height: 0.88rem; position: absolute; background: url("../img/header_back.png") center center no-repeat; z-index: 100; }
+.icon{ display: block;  width: 2.0rem; height: 0.88rem; position: absolute; right: 0; top: 0; background: url("../img/header_right_login.png") no-repeat;
+background-size: 2.0rem 0.9rem ; 
+ }
+ section{ background: #F0EBF1; overflow: hidden; height: calc(100vh - 0.88rem); }
+.title h2{ font-size: 0.4rem; text-align: center; color: #999; font-weight: normal; padding: 10px 0;}
+.info{ padding: 0 8px;  overflow: hidden; }
+.info div{ display: flex; align-items: center; height: 40px; border-radius: 5px; border: 1px solid #ccc; margin: 10px 0; background: #fff;  }
+.info input{ width: 100%; height: 30px; border: none; outline: none; text-indent: 8px; }
+.info input::-webkit-input-placeholder{
+	  font-size: 16px;
+}
+.info .registbox{ background: none; border-radius: none; }
+.info .regist{ width: 100%; height: 40px; border: none; font-size: 0.32rem; color: #999;  background: #EEF7FF;}
+.hint{ font-size: 0.32rem; }
+
+
+
+.menu{ position: fixed; top: 60%; right: 0; width: 40px; height: 40px; background: url("../img/pop_tools.png") no-repeat; background-size: 40px 40px;}
+.wrap{ display: none; }
+.menubox{ position: fixed;  display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; background: rgba(0,0,0,0.4); }
+.wrapbox{ position: absolute;  height: 280px; width: 280px; border-radius: 50%; background: url("../img/pop_tools_bg.png") center center no-repeat; }
+.wrapbox div{ transition: all 0.2s; }
+.btncenter{ position: absolute;  width: 40px; height: 40px; border-radius: 50%; background: url("../img/icon_tools_unlogin.png"); background-size: 40px 40px; left: 120px; top: 120px; transform: scale(0); }
+.btn1{ position: absolute; left: 126px; top: 37px; width: 35px; height: 35px; background: url("../img/icon_tools.png"); background-size: 35px 260px; transform: scale(0); }
+.btn1:hover{ transform: scale(2); }
+.btn2{ position: absolute; left: 192px; top: 72px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -75px; background-size: 35px 260px; transform: scale(0); }
+.btn3{ position: absolute; left: 204px; top: 144px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -150px; background-size: 35px 260px; transform: scale(0); }
+.btn4{ position: absolute; left: 157px; top: 202px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -225px; background-size: 35px 260px; transform: scale(0); }
+.btn5{ position: absolute; left: 81px; top: 197px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -297px; background-size: 35px 260px; transform: scale(0); }
+.btn6{ position: absolute; left: 37px; top: 137px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -373px; background-size: 35px 260px; transform: scale(0);}
+.btn7{ position: absolute; left: 57px; top: 67px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -448px; background-size: 35px 260px; transform: scale(0); }

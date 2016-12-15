@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 50px;
+	background: #F0EBF1;
+	color: #A9A9A9;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+header{height:1.04rem;padding:0 10px;background:url("../img/gezi.png") repeat;display: flex;align-items: center;justify-content: space-between; }
+header .p1{line-height:100%;}
+header .icon-weibiaoti1{font-size:0.64rem;}
+header .p2{font-size:0.40rem;}
+header .p2 i{padding:0 5px;}
+header .p3{line-height:100%;}
+header .p3 i{font-size:0.5rem;padding:0 5px;}
+section{padding: 0 10px;}
+section div{padding:5px;background:white;height:100%;display:flex;align-items:center;position:relative;margin:5px 0;border-radius: 5px;overflow: hidden;}
+section div img{width:100%;}
+section div span{font-size:0.36rem;position:absolute;color:white;left:0.2rem;bottom:0.4rem;padding:10px 5px;}
+
+.menu{ position: fixed;z-index: 100; top: 60%; right: 0; width: 40px; height: 40px; background: url("../img/pop_tools.png") no-repeat; background-size: 40px 40px;}
+.wrap{ display: none; }
+.menubox{ position: fixed;z-index: 100;  display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; background: rgba(0,0,0,0.4); }
+.wrapbox{ position: absolute;  height: 280px; width: 280px; border-radius: 50%; background: url("../img/pop_tools_bg.png") center center no-repeat; }
+.wrapbox div{ transition: all 0.2s; }
+.btncenter{ position: absolute;  width: 40px; height: 40px; border-radius: 50%; background: url("../img/icon_tools_unlogin.png"); background-size: 40px 40px; left: 120px; top: 120px; transform: scale(0); }
+.btn1{ position: absolute; left: 126px; top: 37px; width: 35px; height: 35px; background: url("../img/icon_tools.png"); background-size: 35px 260px; transform: scale(0); }
+.btn1:hover{ transform: scale(2); }
+.btn2{ position: absolute; left: 192px; top: 72px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -75px; background-size: 35px 260px; transform: scale(0); }
+.btn3{ position: absolute; left: 204px; top: 144px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -150px; background-size: 35px 260px; transform: scale(0); }
+.btn4{ position: absolute; left: 157px; top: 202px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -225px; background-size: 35px 260px; transform: scale(0); }
+.btn5{ position: absolute; left: 81px; top: 197px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -297px; background-size: 35px 260px; transform: scale(0); }
+.btn6{ position: absolute; left: 37px; top: 137px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -373px; background-size: 35px 260px; transform: scale(0);}
+.btn7{ position: absolute; left: 57px; top: 67px; width: 35px; height: 35px; background: url("../img/icon_tools.png") 0 -448px; background-size: 35px 260px; transform: scale(0); }
+
+
+
+
+
+
